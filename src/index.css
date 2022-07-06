@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* base styles */
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+
+}
+.nature-image {
+  background-image: url("./ND07.jpg");
+  background-color: #cccccc;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 0px;
+  opacity: 0.95;
+  object-fit: cover;
+
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+.logo-image {
+  margin-left: 20px;
+  /* margin-right: 700px; */
+  height: 120px;
+  width: 110px
+}
+.links {
+  margin: auto 7px auto auto;
+  text-decoration: none;
+  padding: 5px;
+}
+.class-link {
+  text-decoration: none;
+  margin: auto auto;
+  padding: 7px;
+  color: whitesmoke;
+}
+.donate-button {
+  background-color: #f58b13;
+  border-style: solid;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  margin-top: 50vh;
+  /*margin-left: 1vw;*/
+  font-style: normal;
+  color: white;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px;
+
+}
+.donate-button:hover {
+  background-color: white;
+  color: #f58b13;
+}
+.about {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: gray;
+}
+
+.about-para {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  color: black;
+  word-spacing: 1px;
+}
+
+.form {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: gray;
+}
+
+.inputs {
+  padding: 0.5rem 1rem;
+  border-color: antiquewhite;
+  margin: auto;
+  border-radius: 5px;
+  width: 20vw;
+  outline: none;
+
+}
+
+.inputs1 {
+  padding: 0.5rem 1rem;
+  border-color: antiquewhite;
+  border-radius: 5px;
+  width: 20vw;
+  outline: none;
+  background-color: azure;
+}
+
+.inputs2 {
+  padding: 0.5rem 1rem;
+  border-color: antiquewhite;
+  border-radius: 5px;
+  height: 15vh;
+  width: 20vw;
+  outline: none;
+  background-color: azure;
+}
+
+.submit {
+  padding: 5px;
+  text-align: center;
+  border-color: antiquewhite;
+  border-radius: 5px;
+}
